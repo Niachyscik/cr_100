@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<EmBitz_debug_session>
+	<debuggerLastSession>
+		<watches>
+			<watch key="*set_i" format="0" array="0" start="0" count="0" expanded="0" live="0" />
+			<watch key="*set_t_100ms" format="0" array="0" start="0" count="0" expanded="0" live="0" />
+			<watch key="adc_data" format="0" array="0" start="0" count="0" expanded="1" live="0" />
+			<watch key="adc_filtered" format="0" array="0" start="0" count="0" expanded="0" live="0" />
+			<watch key="adc_gain" format="0" array="0" start="0" count="0" expanded="0" live="0" />
+			<watch key="adc_offset" format="0" array="0" start="0" count="0" expanded="0" live="0" />
+			<watch key="ampere_sec" format="1" array="1" start="0" count="0" expanded="0" live="0" />
+			<watch key="current_rms_A" format="0" array="0" start="0" count="0" expanded="0" live="0" />
+			<watch key="head_p-&gt;start_time" format="0" array="0" start="0" count="0" expanded="1" live="0" />
+			<watch key="led_array" format="0" array="0" start="0" count="0" expanded="1" live="0" />
+			<watch key="mb_buf_main" format="0" array="0" start="0" count="0" expanded="0" live="0" />
+			<watch key="mb_rs485" format="0" array="0" start="0" count="0" expanded="1" live="0" />
+			<watch key="mean_square_fp" format="0" array="0" start="0" count="0" expanded="0" live="0" />
+			<watch key="protection_data" format="0" array="0" start="0" count="0" expanded="1" live="0" />
+		</watches>
+		<memory_view address="0x0" locked="0" live="0" options="290" />
+	</debuggerLastSession>
+</EmBitz_debug_session>

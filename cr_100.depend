@@ -1,0 +1,738 @@
+# depslib dependency file v1.0
+1789639087 source:d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\src\startup_stm32f042x6.s
+
+1789639087 source:d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\hal\src\stm32f0xx_hal.c
+	"stm32f0xx_hal.h"
+
+1789639087 d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\hal\inc\stm32f0xx_hal.h
+	"stm32f0xx_hal_conf.h"
+
+1789639087 d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\hal\inc\stm32f0xx_hal_conf.h
+	"stm32f0xx_hal_rcc.h"
+	"stm32f0xx_hal_gpio.h"
+	"stm32f0xx_hal_exti.h"
+	"stm32f0xx_hal_dma.h"
+	"stm32f0xx_hal_cortex.h"
+	"stm32f0xx_hal_adc.h"
+	"stm32f0xx_hal_can.h"
+	"stm32f0xx_hal_cec.h"
+	"stm32f0xx_hal_comp.h"
+	"stm32f0xx_hal_crc.h"
+	"stm32f0xx_hal_dac.h"
+	"stm32f0xx_hal_flash.h"
+	"stm32f0xx_hal_i2c.h"
+	"stm32f0xx_hal_i2s.h"
+	"stm32f0xx_hal_irda.h"
+	"stm32f0xx_hal_iwdg.h"
+	"stm32f0xx_hal_pcd.h"
+	"stm32f0xx_hal_pwr.h"
+	"stm32f0xx_hal_rtc.h"
+	"stm32f0xx_hal_smartcard.h"
+	"stm32f0xx_hal_smbus.h"
+	"stm32f0xx_hal_spi.h"
+	"stm32f0xx_hal_tim.h"
+	"stm32f0xx_hal_tsc.h"
+	"stm32f0xx_hal_uart.h"
+	"stm32f0xx_hal_usart.h"
+	"stm32f0xx_hal_wwdg.h"
+
+1789639087 d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\hal\inc\stm32f0xx_hal_rcc.h
+	"stm32f0xx_hal_def.h"
+	"stm32f0xx_hal_rcc_ex.h"
+
+1789639087 d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\hal\inc\stm32f0xx_hal_def.h
+	"stm32f0xx.h"
+	"stm32_hal_legacy.h"
+	<stddef.h>
+
+1789639087 d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\inc\stm32f0xx.h
+	"stm32f030x6.h"
+	"stm32f030x8.h"
+	"stm32f031x6.h"
+	"stm32f038xx.h"
+	"stm32f042x6.h"
+	"stm32f048xx.h"
+	"stm32f051x8.h"
+	"stm32f058xx.h"
+	"stm32f070x6.h"
+	"stm32f070xb.h"
+	"stm32f071xb.h"
+	"stm32f072xb.h"
+	"stm32f078xx.h"
+	"stm32f091xc.h"
+	"stm32f098xx.h"
+	"stm32f030xc.h"
+	"stm32f0xx_hal.h"
+
+1789639087 d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\inc\stm32f042x6.h
+	"core_cm0.h"
+	"system_stm32f0xx.h"
+	<stdint.h>
+
+1789639087 d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\cmsis\core_cm0.h
+	<stdint.h>
+	"cmsis_version.h"
+	"cmsis_compiler.h"
+
+1789639087 d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\cmsis\cmsis_version.h
+
+1789639087 d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\cmsis\cmsis_compiler.h
+	<stdint.h>
+	"cmsis_armcc.h"
+	"cmsis_armclang_ltm.h"
+	"cmsis_armclang.h"
+	"cmsis_gcc.h"
+	<cmsis_iccarm.h>
+	<cmsis_ccs.h>
+	<cmsis_csm.h>
+
+1789639087 d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\cmsis\cmsis_gcc.h
+
+1789639087 d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\inc\system_stm32f0xx.h
+
+1789639087 d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\hal\inc\stm32_hal_legacy.h
+
+1789639087 d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\hal\inc\stm32f0xx_hal_rcc_ex.h
+	"stm32f0xx_hal_def.h"
+
+1789639087 d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\hal\inc\stm32f0xx_hal_gpio.h
+	"stm32f0xx_hal_def.h"
+	"stm32f0xx_hal_gpio_ex.h"
+
+1789639087 d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\hal\inc\stm32f0xx_hal_gpio_ex.h
+	"stm32f0xx_hal_def.h"
+
+1789639087 d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\hal\inc\stm32f0xx_hal_exti.h
+	"stm32f0xx_hal_def.h"
+
+1789639087 d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\hal\inc\stm32f0xx_hal_dma.h
+	"stm32f0xx_hal_def.h"
+	"stm32f0xx_hal_dma_ex.h"
+
+1789639087 d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\hal\inc\stm32f0xx_hal_dma_ex.h
+	"stm32f0xx_hal_def.h"
+
+1789639087 d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\hal\inc\stm32f0xx_hal_cortex.h
+	"stm32f0xx_hal_def.h"
+
+1789639087 d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\hal\inc\stm32f0xx_hal_adc.h
+	"stm32f0xx_hal_def.h"
+	"stm32f0xx_hal_adc_ex.h"
+
+1789639087 d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\hal\inc\stm32f0xx_hal_adc_ex.h
+	"stm32f0xx_hal_def.h"
+
+1789639087 d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\hal\inc\stm32f0xx_hal_can.h
+	"stm32f0xx_hal_def.h"
+
+1789639087 d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\hal\inc\stm32f0xx_hal_cec.h
+	"stm32f0xx_hal_def.h"
+
+1789639087 d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\hal\inc\stm32f0xx_hal_comp.h
+	"stm32f0xx_hal_def.h"
+
+1789639087 d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\hal\inc\stm32f0xx_hal_crc.h
+	"stm32f0xx_hal_def.h"
+	"stm32f0xx_hal_crc_ex.h"
+
+1789639087 d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\hal\inc\stm32f0xx_hal_crc_ex.h
+	"stm32f0xx_hal_def.h"
+
+1789639087 d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\hal\inc\stm32f0xx_hal_dac.h
+	"stm32f0xx_hal_def.h"
+	"stm32f0xx_hal_dac_ex.h"
+
+1789639087 d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\hal\inc\stm32f0xx_hal_dac_ex.h
+	"stm32f0xx_hal_def.h"
+
+1789639087 d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\hal\inc\stm32f0xx_hal_flash.h
+	"stm32f0xx_hal_def.h"
+	"stm32f0xx_hal_flash_ex.h"
+
+1789639087 d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\hal\inc\stm32f0xx_hal_flash_ex.h
+	"stm32f0xx_hal_def.h"
+
+1789639087 d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\hal\inc\stm32f0xx_hal_i2c.h
+	"stm32f0xx_hal_def.h"
+	"stm32f0xx_hal_i2c_ex.h"
+
+1789639087 d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\hal\inc\stm32f0xx_hal_i2c_ex.h
+	"stm32f0xx_hal_def.h"
+
+1789639087 d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\hal\inc\stm32f0xx_hal_i2s.h
+	"stm32f0xx_hal_def.h"
+
+1789639087 d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\hal\inc\stm32f0xx_hal_irda.h
+	"stm32f0xx_hal_def.h"
+	"stm32f0xx_hal_irda_ex.h"
+
+1789639087 d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\hal\inc\stm32f0xx_hal_irda_ex.h
+	"stm32f0xx_hal_def.h"
+
+1789639087 d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\hal\inc\stm32f0xx_hal_iwdg.h
+	"stm32f0xx_hal_def.h"
+
+1789639087 d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\hal\inc\stm32f0xx_hal_pcd.h
+	"stm32f0xx_ll_usb.h"
+	"stm32f0xx_hal_pcd_ex.h"
+
+1789639087 d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\ll\inc\stm32f0xx_ll_usb.h
+	"stm32f0xx_hal_def.h"
+
+1789639087 d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\hal\inc\stm32f0xx_hal_pcd_ex.h
+	"stm32f0xx_hal_def.h"
+
+1789639087 d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\hal\inc\stm32f0xx_hal_pwr.h
+	"stm32f0xx_hal_def.h"
+	"stm32f0xx_hal_pwr_ex.h"
+
+1789639087 d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\hal\inc\stm32f0xx_hal_pwr_ex.h
+	"stm32f0xx_hal_def.h"
+
+1789639087 d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\hal\inc\stm32f0xx_hal_rtc.h
+	"stm32f0xx_hal_def.h"
+	"stm32f0xx_hal_rtc_ex.h"
+
+1789639087 d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\hal\inc\stm32f0xx_hal_rtc_ex.h
+	"stm32f0xx_hal_def.h"
+
+1789639087 d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\hal\inc\stm32f0xx_hal_smartcard.h
+	"stm32f0xx_hal_def.h"
+	"stm32f0xx_hal_smartcard_ex.h"
+
+1789639087 d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\hal\inc\stm32f0xx_hal_smartcard_ex.h
+	"stm32f0xx_hal_def.h"
+
+1789639087 d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\hal\inc\stm32f0xx_hal_smbus.h
+	"stm32f0xx_hal_def.h"
+
+1789639087 d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\hal\inc\stm32f0xx_hal_spi.h
+	"stm32f0xx_hal_def.h"
+	"stm32f0xx_hal_spi_ex.h"
+
+1789639087 d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\hal\inc\stm32f0xx_hal_spi_ex.h
+	"stm32f0xx_hal_def.h"
+
+1789639087 d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\hal\inc\stm32f0xx_hal_tim.h
+	"stm32f0xx_hal_def.h"
+	"stm32f0xx_hal_tim_ex.h"
+
+1789639087 d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\hal\inc\stm32f0xx_hal_tim_ex.h
+	"stm32f0xx_hal_def.h"
+
+1789639087 d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\hal\inc\stm32f0xx_hal_tsc.h
+	"stm32f0xx_hal_def.h"
+
+1789639087 d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\hal\inc\stm32f0xx_hal_uart.h
+	"stm32f0xx_hal_def.h"
+	"stm32f0xx_hal_uart_ex.h"
+
+1789639087 d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\hal\inc\stm32f0xx_hal_uart_ex.h
+	"stm32f0xx_hal_def.h"
+
+1789639087 d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\hal\inc\stm32f0xx_hal_usart.h
+	"stm32f0xx_hal_def.h"
+	"stm32f0xx_hal_usart_ex.h"
+
+1789639087 d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\hal\inc\stm32f0xx_hal_usart_ex.h
+	"stm32f0xx_hal_def.h"
+
+1789639087 d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\hal\inc\stm32f0xx_hal_wwdg.h
+	"stm32f0xx_hal_def.h"
+
+1789639087 source:d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\hal\src\stm32f0xx_hal_adc.c
+	"stm32f0xx_hal.h"
+
+1789639087 source:d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\hal\src\stm32f0xx_hal_adc_ex.c
+	"stm32f0xx_hal.h"
+
+1789639087 source:d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\hal\src\stm32f0xx_hal_can.c
+	"stm32f0xx_hal.h"
+
+1789639087 source:d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\hal\src\stm32f0xx_hal_cec.c
+	"stm32f0xx_hal.h"
+
+1789639087 source:d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\hal\src\stm32f0xx_hal_comp.c
+	"stm32f0xx_hal.h"
+
+1789639087 source:d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\hal\src\stm32f0xx_hal_cortex.c
+	"stm32f0xx_hal.h"
+
+1789639087 source:d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\hal\src\stm32f0xx_hal_crc.c
+	"stm32f0xx_hal.h"
+
+1789639087 source:d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\hal\src\stm32f0xx_hal_crc_ex.c
+	"stm32f0xx_hal.h"
+
+1789639087 source:d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\hal\src\stm32f0xx_hal_dac.c
+	"stm32f0xx_hal.h"
+
+1789639087 source:d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\hal\src\stm32f0xx_hal_dac_ex.c
+	"stm32f0xx_hal.h"
+
+1789639087 source:d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\hal\src\stm32f0xx_hal_dma.c
+	"stm32f0xx_hal.h"
+
+1789639087 source:d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\hal\src\stm32f0xx_hal_exti.c
+	"stm32f0xx_hal.h"
+
+1789639087 source:d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\hal\src\stm32f0xx_hal_flash.c
+	"stm32f0xx_hal.h"
+
+1789639087 source:d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\hal\src\stm32f0xx_hal_flash_ex.c
+	"stm32f0xx_hal.h"
+
+1789639087 source:d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\hal\src\stm32f0xx_hal_gpio.c
+	"stm32f0xx_hal.h"
+
+1789639087 source:d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\hal\src\stm32f0xx_hal_i2c.c
+	"stm32f0xx_hal.h"
+
+1789639087 source:d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\hal\src\stm32f0xx_hal_i2c_ex.c
+	"stm32f0xx_hal.h"
+
+1789639087 source:d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\hal\src\stm32f0xx_hal_i2s.c
+	"stm32f0xx_hal.h"
+
+1789639087 source:d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\hal\src\stm32f0xx_hal_irda.c
+	"stm32f0xx_hal.h"
+
+1789639087 source:d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\hal\src\stm32f0xx_hal_iwdg.c
+	"stm32f0xx_hal.h"
+
+1789639087 source:d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\hal\src\stm32f0xx_hal_pcd.c
+	"stm32f0xx_hal.h"
+
+1789639087 source:d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\hal\src\stm32f0xx_hal_pcd_ex.c
+	"stm32f0xx_hal.h"
+
+1789639087 source:d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\hal\src\stm32f0xx_hal_pwr.c
+	"stm32f0xx_hal.h"
+
+1789639087 source:d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\hal\src\stm32f0xx_hal_pwr_ex.c
+	"stm32f0xx_hal.h"
+
+1789639087 source:d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\hal\src\stm32f0xx_hal_rcc.c
+	"stm32f0xx_hal.h"
+
+1789639087 source:d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\hal\src\stm32f0xx_hal_rcc_ex.c
+	"stm32f0xx_hal.h"
+
+1789639087 source:d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\hal\src\stm32f0xx_hal_rtc.c
+	"stm32f0xx_hal.h"
+
+1789639087 source:d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\hal\src\stm32f0xx_hal_rtc_ex.c
+	"stm32f0xx_hal.h"
+
+1789639087 source:d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\hal\src\stm32f0xx_hal_smartcard.c
+	"stm32f0xx_hal.h"
+
+1789639087 source:d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\hal\src\stm32f0xx_hal_smartcard_ex.c
+	"stm32f0xx_hal.h"
+
+1789639087 source:d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\hal\src\stm32f0xx_hal_smbus.c
+	"stm32f0xx_hal.h"
+
+1789639087 source:d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\hal\src\stm32f0xx_hal_spi.c
+	"stm32f0xx_hal.h"
+
+1789639087 source:d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\hal\src\stm32f0xx_hal_spi_ex.c
+	"stm32f0xx_hal.h"
+
+1789639087 source:d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\hal\src\stm32f0xx_hal_tim.c
+	"stm32f0xx_hal.h"
+
+1789639087 source:d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\hal\src\stm32f0xx_hal_tim_ex.c
+	"stm32f0xx_hal.h"
+
+1789639087 source:d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\hal\src\stm32f0xx_hal_tsc.c
+	"stm32f0xx_hal.h"
+
+1789639087 source:d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\hal\src\stm32f0xx_hal_uart.c
+	"stm32f0xx_hal.h"
+
+1789639087 source:d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\hal\src\stm32f0xx_hal_uart_ex.c
+	"stm32f0xx_hal.h"
+
+1789639087 source:d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\hal\src\stm32f0xx_hal_usart.c
+	"stm32f0xx_hal.h"
+
+1789639087 source:d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\hal\src\stm32f0xx_hal_usart_ex.c
+	"stm32f0xx_hal.h"
+
+1789639087 source:d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\hal\src\stm32f0xx_hal_wwdg.c
+	"stm32f0xx_hal.h"
+
+1789639087 source:d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\ll\src\stm32f0xx_ll_adc.c
+	"stm32f0xx_ll_adc.h"
+	"stm32f0xx_ll_bus.h"
+	"stm32_assert.h"
+
+1789639087 d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\ll\inc\stm32f0xx_ll_adc.h
+	"stm32f0xx.h"
+
+1789639087 d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\ll\inc\stm32f0xx_ll_bus.h
+	"stm32f0xx.h"
+
+1789639087 source:d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\ll\src\stm32f0xx_ll_comp.c
+	"stm32f0xx_ll_comp.h"
+	"stm32_assert.h"
+
+1789639087 d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\ll\inc\stm32f0xx_ll_comp.h
+	"stm32f0xx.h"
+
+1789639087 source:d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\ll\src\stm32f0xx_ll_crc.c
+	"stm32f0xx_ll_crc.h"
+	"stm32f0xx_ll_bus.h"
+	"stm32_assert.h"
+
+1789639087 d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\ll\inc\stm32f0xx_ll_crc.h
+	"stm32f0xx.h"
+
+1789639087 source:d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\ll\src\stm32f0xx_ll_crs.c
+	"stm32f0xx_ll_crs.h"
+	"stm32f0xx_ll_bus.h"
+
+1789639087 d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\ll\inc\stm32f0xx_ll_crs.h
+	"stm32f0xx.h"
+
+1789639087 source:d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\ll\src\stm32f0xx_ll_dac.c
+	"stm32f0xx_ll_dac.h"
+	"stm32f0xx_ll_bus.h"
+	"stm32_assert.h"
+
+1789639087 d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\ll\inc\stm32f0xx_ll_dac.h
+	"stm32f0xx.h"
+
+1789639087 source:d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\ll\src\stm32f0xx_ll_dma.c
+	"stm32f0xx_ll_dma.h"
+	"stm32f0xx_ll_bus.h"
+	"stm32_assert.h"
+
+1789639087 d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\ll\inc\stm32f0xx_ll_dma.h
+	"stm32f0xx.h"
+
+1789639087 source:d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\ll\src\stm32f0xx_ll_exti.c
+	"stm32f0xx_ll_exti.h"
+	"stm32_assert.h"
+
+1789639087 d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\ll\inc\stm32f0xx_ll_exti.h
+	"stm32f0xx.h"
+
+1789639087 source:d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\ll\src\stm32f0xx_ll_gpio.c
+	"stm32f0xx_ll_gpio.h"
+	"stm32f0xx_ll_bus.h"
+	"stm32_assert.h"
+
+1789639087 d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\ll\inc\stm32f0xx_ll_gpio.h
+	"stm32f0xx.h"
+
+1789639087 source:d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\ll\src\stm32f0xx_ll_i2c.c
+	"stm32f0xx_ll_i2c.h"
+	"stm32f0xx_ll_bus.h"
+	"stm32_assert.h"
+
+1789639087 d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\ll\inc\stm32f0xx_ll_i2c.h
+	"stm32f0xx.h"
+
+1789639087 source:d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\ll\src\stm32f0xx_ll_pwr.c
+	"stm32f0xx_ll_pwr.h"
+	"stm32f0xx_ll_bus.h"
+
+1789639087 d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\ll\inc\stm32f0xx_ll_pwr.h
+	"stm32f0xx.h"
+
+1789639087 source:d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\ll\src\stm32f0xx_ll_rcc.c
+	"stm32f0xx_ll_rcc.h"
+	"stm32_assert.h"
+
+1789639087 d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\ll\inc\stm32f0xx_ll_rcc.h
+	"stm32f0xx.h"
+
+1789639087 source:d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\ll\src\stm32f0xx_ll_rtc.c
+	"stm32f0xx_ll_rtc.h"
+	"stm32f0xx_ll_cortex.h"
+	"stm32_assert.h"
+
+1789639087 d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\ll\inc\stm32f0xx_ll_rtc.h
+	"stm32f0xx.h"
+
+1789639087 d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\ll\inc\stm32f0xx_ll_cortex.h
+	"stm32f0xx.h"
+
+1789639087 source:d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\ll\src\stm32f0xx_ll_spi.c
+	"stm32f0xx_ll_spi.h"
+	"stm32f0xx_ll_bus.h"
+	"stm32f0xx_ll_rcc.h"
+	"stm32_assert.h"
+
+1789639087 d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\ll\inc\stm32f0xx_ll_spi.h
+	"stm32f0xx.h"
+
+1789639087 source:d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\ll\src\stm32f0xx_ll_tim.c
+	"stm32f0xx_ll_tim.h"
+	"stm32f0xx_ll_bus.h"
+	"stm32_assert.h"
+
+1789639087 d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\ll\inc\stm32f0xx_ll_tim.h
+	"stm32f0xx.h"
+
+1789639087 source:d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\ll\src\stm32f0xx_ll_usart.c
+	"stm32f0xx_ll_usart.h"
+	"stm32f0xx_ll_rcc.h"
+	"stm32f0xx_ll_bus.h"
+	"stm32_assert.h"
+
+1789639087 d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\ll\inc\stm32f0xx_ll_usart.h
+	"stm32f0xx.h"
+
+1789639087 source:d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\ll\src\stm32f0xx_ll_usb.c
+	"stm32f0xx_hal.h"
+
+1789639087 source:d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\ll\src\stm32f0xx_ll_utils.c
+	"stm32f0xx_ll_rcc.h"
+	"stm32f0xx_ll_utils.h"
+	"stm32f0xx_ll_system.h"
+	"stm32_assert.h"
+
+1789639087 d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\ll\inc\stm32f0xx_ll_utils.h
+	"stm32f0xx.h"
+
+1789639087 d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\ll\inc\stm32f0xx_ll_system.h
+	"stm32f0xx.h"
+
+1790864033 source:d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\src\main.c
+	"main.h"
+	"io_f042.h"
+	"timer_dispatcher.h"
+	"modbus_hard.h"
+	"modbus.h"
+	"modbus_reg.h"
+	"modbus_cb.h"
+	"led.h"
+	"usb_device.h"
+	"log_nel.h"
+
+1790862294 d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\inc\main.h
+	"stm32f0xx_hal.h"
+	"stm32f0xx_ll_conf.h"
+
+1789639087 d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\ll\inc\stm32f0xx_ll_conf.h
+	"stm32f0xx.h"
+	"stm32f0xx_ll_adc.h"
+	"stm32f0xx_ll_bus.h"
+	"stm32f0xx_ll_comp.h"
+	"stm32f0xx_ll_cortex.h"
+	"stm32f0xx_ll_crc.h"
+	"stm32f0xx_ll_crs.h"
+	"stm32f0xx_ll_dac.h"
+	"stm32f0xx_ll_dma.h"
+	"stm32f0xx_ll_exti.h"
+	"stm32f0xx_ll_gpio.h"
+	"stm32f0xx_ll_i2c.h"
+	"stm32f0xx_ll_iwdg.h"
+	"stm32f0xx_ll_pwr.h"
+	"stm32f0xx_ll_rcc.h"
+	"stm32f0xx_ll_rtc.h"
+	"stm32f0xx_ll_spi.h"
+	"stm32f0xx_ll_system.h"
+	"stm32f0xx_ll_tim.h"
+	"stm32f0xx_ll_usart.h"
+	"stm32f0xx_ll_usb.h"
+	"stm32f0xx_ll_utils.h"
+	"stm32f0xx_ll_wwdg.h"
+
+1789639087 d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\ll\inc\stm32f0xx_ll_iwdg.h
+	"stm32f0xx.h"
+
+1789639087 d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\ll\inc\stm32f0xx_ll_wwdg.h
+	"stm32f0xx.h"
+
+1745501261 d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\src\log_nel.h
+	<stdio.h>
+	<string.h>
+
+1789639125 source:d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\ebmon.c
+	"ebmon.h"
+
+1789639125 d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\ebmon.h
+	<stdio.h>
+	<stdint.h>
+
+1789639087 source:d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\src\system_stm32f0xx.c
+	"stm32f0xx.h"
+
+1789975464 source:d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\src\ebmon.c
+	"ebmon.h"
+
+1789975464 d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\src\ebmon.h
+	<stdio.h>
+	<stdint.h>
+
+1790864111 source:d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\src\io_f042.c
+	"io_f042.h"
+	"stm32f0xx.h"
+	"stm32f0xx_ll_system.h"
+	"stm32f0xx_ll_bus.h"
+	"stm32f0xx_ll_rcc.h"
+	"stm32f0xx_ll_dma.h"
+	"stm32f0xx_ll_adc.h"
+	"stm32f0xx_ll_utils.h"
+	"stm32f0xx_ll_iwdg.h"
+
+1790863943 d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\src\io_f042.h
+	<stdint.h>
+	<stdbool.h>
+	"stm32f0xx.h"
+
+1790160025 source:d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\src\timer_dispatcher.c
+	"timer_dispatcher.h"
+	<stdio.h>
+	<stdbool.h>
+
+1790593347 d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\src\timer_dispatcher.h
+	"stm32f0xx.h"
+	<stdio.h>
+	<stdbool.h>
+
+1753091914 source:d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\modbus\modbus.c
+	"modbus.h"
+	"modbus_config.h"
+	<stdio.h>
+	"modbus_reg.h"
+
+1760366296 d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\modbus\modbus.h
+	<stdint.h>
+	<stdbool.h>
+	"modbus_config.h"
+
+1790860672 d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\modbus\modbus_config.h
+	<stdint.h>
+	"main.h"
+	"modbus_cb.h"
+
+1790767206 d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\modbus\modbus_cb.h
+
+1790258423 d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\modbus\modbus_reg.h
+	<stdint.h>
+	"modbus_config.h"
+	"modbus.h"
+
+1755251763 source:d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\modbus\modbus_reg.c
+	"modbus_config.h"
+	"modbus_reg.h"
+	"modbus.h"
+
+1790685430 source:d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\modbus\modbus_hard.c
+	<stdbool.h>
+	"inttypes.h"
+	<stdio.h>
+	"modbus_hard.h"
+	"modbus.h"
+	"modbus_reg.h"
+	"modbus_cb.h"
+	<stm32f0xx_ll_bus.h>
+	<stm32f0xx_ll_usart.h>
+	"main.h"
+	"io_f042.h"
+	"timer_dispatcher.h"
+	<eeprom_emulation.h>
+	"usbd_cdc_if.h"
+	"log_nel.h"
+
+1790082359 d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\modbus\modbus_hard.h
+	"modbus.h"
+
+1790159333 source:d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\src\eeprom_emulation.c
+	<eeprom_emulation.h>
+	<stm32f0xx.h>
+	<stdint.h>
+
+1680139096 d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\src\eeprom_emulation.h
+	<stdint.h>
+
+1773127137 source:d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\stm32_usb_device_library\class\cdc\src\usbd_cdc.c
+	"usbd_cdc.h"
+	"usbd_ctlreq.h"
+
+1773127137 d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\stm32_usb_device_library\class\cdc\inc\usbd_cdc.h
+	"usbd_ioreq.h"
+
+1773127137 d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\stm32_usb_device_library\core\inc\usbd_ioreq.h
+	"usbd_def.h"
+	"usbd_core.h"
+
+1773127137 d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\stm32_usb_device_library\core\inc\usbd_def.h
+	"usbd_conf.h"
+
+1773127142 d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\usb_device\target\usbd_conf.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"main.h"
+	"stm32f0xx.h"
+	"stm32f0xx_hal.h"
+
+1773127137 d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\stm32_usb_device_library\core\inc\usbd_core.h
+	"usbd_conf.h"
+	"usbd_def.h"
+	"usbd_ioreq.h"
+	"usbd_ctlreq.h"
+
+1773127137 d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\stm32_usb_device_library\core\inc\usbd_ctlreq.h
+	"usbd_def.h"
+
+1773127137 source:d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\stm32_usb_device_library\core\src\usbd_core.c
+	"usbd_core.h"
+
+1773127137 source:d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\stm32_usb_device_library\core\src\usbd_ctlreq.c
+	"usbd_ctlreq.h"
+	"usbd_ioreq.h"
+
+1773127137 source:d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\stm32_usb_device_library\core\src\usbd_ioreq.c
+	"usbd_ioreq.h"
+
+1773127141 source:d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\usb_device\app\usb_device.c
+	"usb_device.h"
+	"usbd_core.h"
+	"usbd_desc.h"
+	"usbd_cdc.h"
+	"usbd_cdc_if.h"
+
+1773127141 d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\usb_device\app\usb_device.h
+	"stm32f0xx.h"
+	"stm32f0xx_hal.h"
+	"usbd_def.h"
+
+1773127142 d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\usb_device\app\usbd_desc.h
+	"usbd_def.h"
+
+1773127142 d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\usb_device\app\usbd_cdc_if.h
+	"usbd_cdc.h"
+
+1790087221 source:d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\usb_device\app\usbd_cdc_if.c
+	"usbd_cdc_if.h"
+	"modbus_hard.h"
+
+1790674815 source:d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\usb_device\app\usbd_desc.c
+	"usbd_core.h"
+	"usbd_desc.h"
+	"usbd_conf.h"
+
+1790606377 source:d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\usb_device\target\usbd_conf.c
+	"stm32f0xx.h"
+	"stm32f0xx_hal.h"
+	"usbd_def.h"
+	"usbd_core.h"
+	"usbd_cdc.h"
+	"led.h"
+
+1790778812 source:d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\src\led.c
+	"led.h"
+
+1790669254 d:\dropbox\gg\smtn\code\cr_100\embitz\cr_100\src\led.h
+	<stdint.h>
+	<stdbool.h>
+	"timer_dispatcher.h"
+	"io_f042.h"
+

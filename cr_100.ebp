@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<EmBitz_project_file>
+	<EmBitzVersion release="2.65" revision="0" />
+	<FileVersion major="2" minor="0" />
+	<Project>
+		<Option title="cr_100" />
+		<Option pch_mode="2" />
+		<Option compiler="armgcc_eb" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin\Debug\cr_100.elf" />
+				<Option object_output="obj\Debug\" />
+				<Option type="0" />
+				<Option compiler="armgcc_eb" />
+				<Option projectDeviceOptionsRelation="0" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-fdata-sections" />
+					<Add option="-ffunction-sections" />
+					<Add option="-Os" />
+					<Add option="-g2" />
+					<Add symbol="DEBUG_TARGET" />
+				</Compiler>
+				<Cpp>
+					<Add option="-Wall" />
+					<Add option="-fdata-sections" />
+					<Add option="-ffunction-sections" />
+					<Add option="-O0" />
+					<Add option="-g2" />
+				</Cpp>
+				<Assembler>
+					<Add option="-Wa,--gdwarf-2" />
+				</Assembler>
+				<Linker>
+					<Add option="-Wl,--gc-sections" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin\Release\cr_100.elf" />
+				<Option object_output="obj\Release\" />
+				<Option type="0" />
+				<Option create_hex="1" />
+				<Option compiler="armgcc_eb" />
+				<Option projectDeviceOptionsRelation="0" />
+				<Compiler>
+					<Add option="-fdata-sections" />
+					<Add option="-ffunction-sections" />
+					<Add option="-Os" />
+					<Add option="-g2" />
+					<Add symbol="RELEASE_TARGET" />
+				</Compiler>
+				<Cpp>
+					<Add option="-fdata-sections" />
+					<Add option="-ffunction-sections" />
+					<Add option="-O2" />
+					<Add option="-g2" />
+				</Cpp>
+				<Assembler>
+					<Add option="-Wa,--no-warn" />
+				</Assembler>
+				<Linker>
+					<Add option="-Wl,--gc-sections" />
+					<Add option="-flto" />
+				</Linker>
+				<ExtraCommands>
+					<Add after='arm-none-eabi-objcopy -O binary &quot;$(TARGET_OUTPUT_DIR)\$(TARGET_OUTPUT_BASENAME).elf&quot; &quot;$(TARGET_OUTPUT_DIR)\$(TARGET_OUTPUT_BASENAME).bin&quot;' />
+					<Mode before="0" />
+					<Mode after="0" />
+				</ExtraCommands>
+			</Target>
+		</Build>
+		<Device>
+			<Add option="$device=cortex-m0" />
+			<Add option="$lscript=./stm32f042f6_flash.ld" />
+			<Add option="$stack=0x0100" />
+			<Add option="$heap=0x0000" />
+		</Device>
+		<Compiler>
+			<Add option="-mfloat-abi=soft" />
+			<Add option="-fno-strict-aliasing" />
+			<Add symbol="ARM_MATH_CM0" />
+			<Add symbol="HSI_VALUE=48000000" />
+			<Add symbol="STM32F0X2" />
+			<Add symbol="STM32F042F6" />
+			<Add symbol="STM32F042x6" />
+			<Add symbol="USE_HAL_DRIVER" />
+			<Add symbol="USE_FULL_LL_DRIVER" />
+			<Add symbol="PROJECT_C" />
+			<Add directory=".\cmsis" />
+			<Add directory=".\inc" />
+			<Add directory=".\src" />
+			<Add directory=".\HAL\inc" />
+			<Add directory=".\HAL\src" />
+			<Add directory=".\LL\inc" />
+			<Add directory=".\LL\src" />
+		</Compiler>
+		<Cpp>
+			<Add option="-mfloat-abi=soft" />
+			<Add option="-fno-strict-aliasing" />
+		</Cpp>
+		<Linker>
+			<Add option="-eb_lib=n" />
+			<Add option="-eb_start_files" />
+			<Add option="-lm" />
+		</Linker>
+		<Unit filename="cmsis\cmsis_compiler.h" />
+		<Unit filename="cmsis\cmsis_gcc.h" />
+		<Unit filename="cmsis\cmsis_version.h" />
+		<Unit filename="cmsis\core_cm0.h" />
+		<Unit filename="cmsis\mpu_armv7.h" />
+		<Unit filename="cmsis\mpu_armv8.h" />
+		<Unit filename="cmsis\tz_context.h" />
+		<Unit filename="HAL\Inc\stm32_hal_legacy.h" />
+		<Unit filename="HAL\Inc\stm32f0xx_hal.h" />
+		<Unit filename="HAL\Inc\stm32f0xx_hal_adc.h" />
+		<Unit filename="HAL\Inc\stm32f0xx_hal_adc_ex.h" />
+		<Unit filename="HAL\Inc\stm32f0xx_hal_can.h" />
+		<Unit filename="HAL\Inc\stm32f0xx_hal_cec.h" />
+		<Unit filename="HAL\Inc\stm32f0xx_hal_comp.h" />
+		<Unit filename="HAL\Inc\stm32f0xx_hal_conf.h" />
+		<Unit filename="HAL\Inc\stm32f0xx_hal_cortex.h" />
+		<Unit filename="HAL\Inc\stm32f0xx_hal_crc.h" />
+		<Unit filename="HAL\Inc\stm32f0xx_hal_crc_ex.h" />
+		<Unit filename="HAL\Inc\stm32f0xx_hal_dac.h" />
+		<Unit filename="HAL\Inc\stm32f0xx_hal_dac_ex.h" />
+		<Unit filename="HAL\Inc\stm32f0xx_hal_def.h" />
+		<Unit filename="HAL\Inc\stm32f0xx_hal_dma.h" />
+		<Unit filename="HAL\Inc\stm32f0xx_hal_dma_ex.h" />
+		<Unit filename="HAL\Inc\stm32f0xx_hal_exti.h" />
+		<Unit filename="HAL\Inc\stm32f0xx_hal_flash.h" />
+		<Unit filename="HAL\Inc\stm32f0xx_hal_flash_ex.h" />
+		<Unit filename="HAL\Inc\stm32f0xx_hal_gpio.h" />
+		<Unit filename="HAL\Inc\stm32f0xx_hal_gpio_ex.h" />
+		<Unit filename="HAL\Inc\stm32f0xx_hal_i2c.h" />
+		<Unit filename="HAL\Inc\stm32f0xx_hal_i2c_ex.h" />
+		<Unit filename="HAL\Inc\stm32f0xx_hal_i2s.h" />
+		<Unit filename="HAL\Inc\stm32f0xx_hal_irda.h" />
+		<Unit filename="HAL\Inc\stm32f0xx_hal_irda_ex.h" />
+		<Unit filename="HAL\Inc\stm32f0xx_hal_iwdg.h" />
+		<Unit filename="HAL\Inc\stm32f0xx_hal_pcd.h" />
+		<Unit filename="HAL\Inc\stm32f0xx_hal_pcd_ex.h" />
+		<Unit filename="HAL\Inc\stm32f0xx_hal_pwr.h" />
+		<Unit filename="HAL\Inc\stm32f0xx_hal_pwr_ex.h" />
+		<Unit filename="HAL\Inc\stm32f0xx_hal_rcc.h" />
+		<Unit filename="HAL\Inc\stm32f0xx_hal_rcc_ex.h" />
+		<Unit filename="HAL\Inc\stm32f0xx_hal_rtc.h" />
+		<Unit filename="HAL\Inc\stm32f0xx_hal_rtc_ex.h" />
+		<Unit filename="HAL\Inc\stm32f0xx_hal_smartcard.h" />
+		<Unit filename="HAL\Inc\stm32f0xx_hal_smartcard_ex.h" />
+		<Unit filename="HAL\Inc\stm32f0xx_hal_smbus.h" />
+		<Unit filename="HAL\Inc\stm32f0xx_hal_spi.h" />
+		<Unit filename="HAL\Inc\stm32f0xx_hal_spi_ex.h" />
+		<Unit filename="HAL\Inc\stm32f0xx_hal_tim.h" />
+		<Unit filename="HAL\Inc\stm32f0xx_hal_tim_ex.h" />
+		<Unit filename="HAL\Inc\stm32f0xx_hal_tsc.h" />
+		<Unit filename="HAL\Inc\stm32f0xx_hal_uart.h" />
+		<Unit filename="HAL\Inc\stm32f0xx_hal_uart_ex.h" />
+		<Unit filename="HAL\Inc\stm32f0xx_hal_usart.h" />
+		<Unit filename="HAL\Inc\stm32f0xx_hal_usart_ex.h" />
+		<Unit filename="HAL\Inc\stm32f0xx_hal_wwdg.h" />
+		<Unit filename="HAL\Src\stm32f0xx_hal.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="HAL\Src\stm32f0xx_hal_adc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="HAL\Src\stm32f0xx_hal_adc_ex.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="HAL\Src\stm32f0xx_hal_can.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="HAL\Src\stm32f0xx_hal_cec.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="HAL\Src\stm32f0xx_hal_comp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="HAL\Src\stm32f0xx_hal_cortex.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="HAL\Src\stm32f0xx_hal_crc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="HAL\Src\stm32f0xx_hal_crc_ex.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="HAL\Src\stm32f0xx_hal_dac.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="HAL\Src\stm32f0xx_hal_dac_ex.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="HAL\Src\stm32f0xx_hal_dma.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="HAL\Src\stm32f0xx_hal_exti.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="HAL\Src\stm32f0xx_hal_flash.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="HAL\Src\stm32f0xx_hal_flash_ex.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="HAL\Src\stm32f0xx_hal_gpio.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="HAL\Src\stm32f0xx_hal_i2c.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="HAL\Src\stm32f0xx_hal_i2c_ex.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="HAL\Src\stm32f0xx_hal_i2s.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="HAL\Src\stm32f0xx_hal_irda.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="HAL\Src\stm32f0xx_hal_iwdg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="HAL\Src\stm32f0xx_hal_pcd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="HAL\Src\stm32f0xx_hal_pcd_ex.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="HAL\Src\stm32f0xx_hal_pwr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="HAL\Src\stm32f0xx_hal_pwr_ex.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="HAL\Src\stm32f0xx_hal_rcc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="HAL\Src\stm32f0xx_hal_rcc_ex.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="HAL\Src\stm32f0xx_hal_rtc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="HAL\Src\stm32f0xx_hal_rtc_ex.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="HAL\Src\stm32f0xx_hal_smartcard.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="HAL\Src\stm32f0xx_hal_smartcard_ex.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="HAL\Src\stm32f0xx_hal_smbus.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="HAL\Src\stm32f0xx_hal_spi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="HAL\Src\stm32f0xx_hal_spi_ex.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="HAL\Src\stm32f0xx_hal_tim.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="HAL\Src\stm32f0xx_hal_tim_ex.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="HAL\Src\stm32f0xx_hal_tsc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="HAL\Src\stm32f0xx_hal_uart.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="HAL\Src\stm32f0xx_hal_uart_ex.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="HAL\Src\stm32f0xx_hal_usart.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="HAL\Src\stm32f0xx_hal_usart_ex.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="HAL\Src\stm32f0xx_hal_wwdg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="inc\main.h" />
+		<Unit filename="inc\stm32f042x6.h" />
+		<Unit filename="inc\stm32f0xx.h" />
+		<Unit filename="inc\system_stm32f0xx.h" />
+		<Unit filename="LL\Inc\stm32f0xx_ll_adc.h" />
+		<Unit filename="LL\Inc\stm32f0xx_ll_bus.h" />
+		<Unit filename="LL\Inc\stm32f0xx_ll_comp.h" />
+		<Unit filename="LL\Inc\stm32f0xx_ll_conf.h" />
+		<Unit filename="LL\Inc\stm32f0xx_ll_cortex.h" />
+		<Unit filename="LL\Inc\stm32f0xx_ll_crc.h" />
+		<Unit filename="LL\Inc\stm32f0xx_ll_crs.h" />
+		<Unit filename="LL\Inc\stm32f0xx_ll_dac.h" />
+		<Unit filename="LL\Inc\stm32f0xx_ll_dma.h" />
+		<Unit filename="LL\Inc\stm32f0xx_ll_exti.h" />
+		<Unit filename="LL\Inc\stm32f0xx_ll_gpio.h" />
+		<Unit filename="LL\Inc\stm32f0xx_ll_i2c.h" />
+		<Unit filename="LL\Inc\stm32f0xx_ll_iwdg.h" />
+		<Unit filename="LL\Inc\stm32f0xx_ll_pwr.h" />
+		<Unit filename="LL\Inc\stm32f0xx_ll_rcc.h" />
+		<Unit filename="LL\Inc\stm32f0xx_ll_rtc.h" />
+		<Unit filename="LL\Inc\stm32f0xx_ll_spi.h" />
+		<Unit filename="LL\Inc\stm32f0xx_ll_system.h" />
+		<Unit filename="LL\Inc\stm32f0xx_ll_tim.h" />
+		<Unit filename="LL\Inc\stm32f0xx_ll_usart.h" />
+		<Unit filename="LL\Inc\stm32f0xx_ll_usb.h" />
+		<Unit filename="LL\Inc\stm32f0xx_ll_utils.h" />
+		<Unit filename="LL\Inc\stm32f0xx_ll_wwdg.h" />
+		<Unit filename="LL\Src\stm32f0xx_ll_adc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="LL\Src\stm32f0xx_ll_comp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="LL\Src\stm32f0xx_ll_crc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="LL\Src\stm32f0xx_ll_crs.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="LL\Src\stm32f0xx_ll_dac.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="LL\Src\stm32f0xx_ll_dma.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="LL\Src\stm32f0xx_ll_exti.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="LL\Src\stm32f0xx_ll_gpio.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="LL\Src\stm32f0xx_ll_i2c.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="LL\Src\stm32f0xx_ll_pwr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="LL\Src\stm32f0xx_ll_rcc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="LL\Src\stm32f0xx_ll_rtc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="LL\Src\stm32f0xx_ll_spi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="LL\Src\stm32f0xx_ll_tim.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="LL\Src\stm32f0xx_ll_usart.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="LL\Src\stm32f0xx_ll_usb.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="LL\Src\stm32f0xx_ll_utils.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="modbus\modbus.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="modbus\modbus.h" />
+		<Unit filename="modbus\modbus_cb.h" />
+		<Unit filename="modbus\modbus_config.h" />
+		<Unit filename="modbus\modbus_hard.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="modbus\modbus_hard.h" />
+		<Unit filename="modbus\modbus_reg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="modbus\modbus_reg.h" />
+		<Unit filename="src\ebmon.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\ebmon.h" />
+		<Unit filename="src\eeprom_emulation.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\eeprom_emulation.h" />
+		<Unit filename="src\io_f042.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\io_f042.h" />
+		<Unit filename="src\led.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\led.h" />
+		<Unit filename="src\log_nel.h" />
+		<Unit filename="src\main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\startup_stm32f042x6.S">
+			<Option compilerVar="CC" />
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src\system_stm32f0xx.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\timer_dispatcher.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\timer_dispatcher.h" />
+		<Unit filename="STM32_USB_Device_Library\Class\CDC\Inc\usbd_cdc.h" />
+		<Unit filename="STM32_USB_Device_Library\Class\CDC\Src\usbd_cdc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="STM32_USB_Device_Library\Core\Inc\usbd_core.h" />
+		<Unit filename="STM32_USB_Device_Library\Core\Inc\usbd_ctlreq.h" />
+		<Unit filename="STM32_USB_Device_Library\Core\Inc\usbd_def.h" />
+		<Unit filename="STM32_USB_Device_Library\Core\Inc\usbd_ioreq.h" />
+		<Unit filename="STM32_USB_Device_Library\Core\Src\usbd_core.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="STM32_USB_Device_Library\Core\Src\usbd_ctlreq.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="STM32_USB_Device_Library\Core\Src\usbd_ioreq.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="stm32f042f6_flash.ld" />
+		<Unit filename="STM32F042x.svd" />
+		<Unit filename="USB_DEVICE\App\usb_device.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="USB_DEVICE\App\usb_device.h" />
+		<Unit filename="USB_DEVICE\App\usbd_cdc_if.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="USB_DEVICE\App\usbd_cdc_if.h" />
+		<Unit filename="USB_DEVICE\App\usbd_desc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="USB_DEVICE\App\usbd_desc.h" />
+		<Unit filename="USB_DEVICE\Target\usbd_conf.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="USB_DEVICE\Target\usbd_conf.h" />
+		<Extensions>
+			<code_completion />
+			<debugger>
+				<target_debugging_settings target="Debug">
+					<debug_interface description="STM32F042x.svd" options="2" reg_filter="0" probe="STlink" device="stm32" speed="" bus_address="" serial="" defines="" scripts="" flash_size="" ram_size="" vcc_voltage="" verbose="4" unwind="2" rstType="0" use_jtag="false" disable_cache="false" enable_semi="false" close_eblink="false" gdb_reset="" gdb_reset_remote="reset;" gdb_before_conn="" gdb_after_conn="" use_remote="false" ip_address="" ip_port="" path="" executable="" start_server="false" arguments="" flash_verify="false" flash_run="false" />
+				</target_debugging_settings>
+				<target_debugging_settings target="Release">
+					<debug_interface description="STM32F042x.svd" options="2" reg_filter="0" probe="STlink" device="stm32" speed="" bus_address="" serial="" defines="" scripts="" flash_size="" ram_size="" vcc_voltage="" verbose="4" unwind="2" rstType="0" use_jtag="false" disable_cache="false" enable_semi="false" close_eblink="false" gdb_reset="" gdb_reset_remote="reset" gdb_before_conn="" gdb_after_conn="" use_remote="false" ip_address="" ip_port="" path="" executable="" start_server="false" arguments="" flash_verify="false" flash_run="false" />
+				</target_debugging_settings>
+			</debugger>
+			<envvars />
+		</Extensions>
+	</Project>
+</EmBitz_project_file>
