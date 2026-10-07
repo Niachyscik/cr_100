@@ -9,9 +9,9 @@ extern "C" {
 #include "stm32f0xx_ll_conf.h"
 
 #define ADC_TIMER_MS                100
-#define ADC_OFFSET_DEFAULT          2187 //(2.5  -> 1.76 -> 2187)
-#define ADC_FILTER_RATIO            10
-
+#define ADC_OFFSET_DEFAULT_W1       2187 //(2.5  -> 1.76 -> 2187)
+#define ADC_DEFAULT_FILTER_RATIO    10
+#define ADC_K_GAIN_DEFAULT_W1       17604 // (100 A test)
 
 #define CALIB_0_CODE                1000
 #define CALIB_1_CODE                1001

@@ -96,14 +96,12 @@ void calibration_cb(void)
     if (mb_buf_main[REG_CALIB_START] ==  CALIB_0_CODE)
     {
         td_set_timer_task(calib_0_task, 2000);
-        //io_set_line(IO_LED_RED, 1);
         calib_flag = 1;
         return;
     }
     else if (mb_buf_main[REG_CALIB_START] ==  CALIB_1_CODE)
     {
         td_set_timer_task(calib_1_task, 2000);
-        //io_set_line(IO_LED_RED, 1);
         calib_flag = 1;
         return;
     }
@@ -209,7 +207,7 @@ void adc_iteration(void)
     }
     else
     {
-        adc_intermediate_fp += (adc_raw_val - adc_filtered) * ADC_FILTER_RATIO;
+        adc_intermediate_fp += (adc_raw_val - adc_filtered) * mb_buf_main[REG_ADC_K_FILTERED];
         adc_filtered = adc_intermediate_fp >> 16;
     }
 
@@ -265,7 +263,7 @@ void Task1 (void)
             {
                 if (!do_timer_flag[i])
                 {
-                    do_timer[i] = main_timer_set(mb_buf_main[REG_SETPOINT_TIME_100MS_1_A] * 100 + DO_MIN_TIMER_MS);
+                    do_timer[i] = main_timer_set(mb_buf_main[REG_SETPOINT_TIME_100MS_1_A + j] * 100 + DO_MIN_TIMER_MS);
                     do_timer_flag[i] = 1;
                     trig_timer |= 1<<i;
                 }
@@ -277,7 +275,7 @@ void Task1 (void)
             trig_working |=1<<i;
             do_timer_reset_flag[i] = 0;
         }
-        else if (current_rms_A >= mb_buf_main[REG_SETPOINT_CUR_1_A + j] || current_rms_A >= mb_buf_main[REG_SETPOINT_CUR_1_A + j])
+        else if (current_rms_A >= mb_buf_main[REG_SETPOINT_CUR_1_A + j] || current_rms_A >= mb_buf_main[REG_SETPOINT_CUR_1_B + j])
         {
             trig_working |= 1<<i;
             trig_timer &= ~(1<<i);

@@ -45,12 +45,12 @@
     X_BUF(6,	REG_TRIG_NOTIFY,        0,	    0,	    0,		0,	    READ_R )\
     X_BUF(7,	REG_TRIG_WORKING,       0,	    0,	    0,		0,	    READ_R )\
     X_BUF(8,	REG_DO_STATUS,          0,	    0,	    0,		0,	    READ_R)\
-    X_BUF(10,	REG_SETPOINT_CUR_1_A,   0,	    80,	    0,		1000,   WRITE_R | CB_WR | CB_EEPROM | LIM_UNSIGN)\
-    X_BUF(11,	REG_SETPOINT_CUR_1_B,   0,	    100,    0,		1000,   WRITE_R | CB_WR | CB_EEPROM | LIM_UNSIGN)\
+    X_BUF(10,	REG_SETPOINT_CUR_1_A,   0,	    100,    0,		1000,   WRITE_R | CB_WR | CB_EEPROM | LIM_UNSIGN)\
+    X_BUF(11,	REG_SETPOINT_CUR_1_B,   0,	    80,     0,		1000,   WRITE_R | CB_WR | CB_EEPROM | LIM_UNSIGN)\
     X_BUF(12,	REG_SETPOINT_TIME_100MS_1_A, 0,	50,	    0,		6000,   WRITE_R | CB_WR | CB_EEPROM | LIM_UNSIGN)\
     X_BUF(13,	REG_SETPOINT_TIME_100MS_1_B, 0,	50,	    0,		6000,   WRITE_R | CB_WR | CB_EEPROM | LIM_UNSIGN)\
-    X_BUF(14,	REG_SETPOINT_CUR_2_A,   0,	    80,	    0,		1000,   WRITE_R | CB_WR | CB_EEPROM | LIM_UNSIGN)\
-    X_BUF(15,	REG_SETPOINT_CUR_2_B,   0,	    100,    0,		1000,   WRITE_R | CB_WR | CB_EEPROM | LIM_UNSIGN)\
+    X_BUF(14,	REG_SETPOINT_CUR_2_A,   0,	    100,    0,		1000,   WRITE_R | CB_WR | CB_EEPROM | LIM_UNSIGN)\
+    X_BUF(15,	REG_SETPOINT_CUR_2_B,   0,	    80,     0,		1000,   WRITE_R | CB_WR | CB_EEPROM | LIM_UNSIGN)\
     X_BUF(16,	REG_SETPOINT_TIME_100MS_2_A, 0, 50,	    0,		6000,   WRITE_R | CB_WR | CB_EEPROM | LIM_UNSIGN)\
     X_BUF(17,	REG_SETPOINT_TIME_100MS_2_B, 0,	50,	    0,		6000,   WRITE_R | CB_WR | CB_EEPROM | LIM_UNSIGN)\
     X_BUF(19,	REG_TRIG_NOTIFY_RESET,  &trig_reset_cb,\
@@ -68,10 +68,13 @@
     X_BUF(31,	REG_CALIB_VALUE,        0,	    100,	0,		0,	    WRITE_R)\
     X_BUF(32,	REG_ADC_RMS,            0,	    0,	    0,		0,	    READ_R)\
     X_BUF(33,	REG_ADC_FILTERED,       0,	    0,	    0,		0,	    READ_R)\
-    X_BUF(35,	REG_CALIB_OFFSET_W1,    0,	    ADC_OFFSET_DEFAULT,\
+    X_BUF(34,	REG_ADC_K_FILTERED,     0,	    ADC_DEFAULT_FILTER_RATIO,\
+                                                        1,		0xFFFF, WRITE_R | CB_WR | CB_EEPROM | LIM_UNSIGN)\
+    X_BUF(35,	REG_CALIB_OFFSET_W1,    0,	    ADC_OFFSET_DEFAULT_W1,\
                                                         0,		0,	    WRITE_R | CB_WR | CB_EEPROM)\
     X_BUF(36,	REG_CALIB_OFFSET_W2,    0,	    0,      0,		0,	    WRITE_R | CB_WR | CB_EEPROM)\
-    X_BUF(37,	REG_CALIB_GAIN_W1,      0,	    1,	    0,		0,	    WRITE_R | CB_WR | CB_EEPROM)\
+    X_BUF(37,	REG_CALIB_GAIN_W1,      0,	    ADC_K_GAIN_DEFAULT_W1,\
+                                                        0,		0,	    WRITE_R | CB_WR | CB_EEPROM)\
     X_BUF(38,	REG_CALIB_GAIN_W2,      0,	    0,	    0,		0,	    WRITE_R | CB_WR | CB_EEPROM)\
     X_BUF(40,	REG_RS485_BAUD,	        0,		1,		0,		0x03,	WRITE_R | CB_WR | CB_EEPROM | LIM_MASK)\
 	X_BUF(41,	REG_RS485_ADDR,         0,		1,		1,		0xFA,	WRITE_R | CB_WR | CB_EEPROM | LIM_UNSIGN)\
